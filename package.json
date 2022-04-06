@@ -1,0 +1,25 @@
+{
+  "name": "akflds.github.io",
+  "version": "1.0.0",
+  "description": "Hi there, I'm Andy. This is a portfolio site, originally created during the [Northcoders](https://northcoders.com/) coding bootcamp.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx eleventy",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akflds/akflds.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akflds/akflds.github.io/issues"
+  },
+  "homepage": "https://github.com/akflds/akflds.github.io#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  }
+}
