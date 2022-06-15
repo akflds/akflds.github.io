@@ -3,97 +3,17 @@
 }
 
 html {
-  font-size: 16px;
   font-family: Ubuntu, Arial, Helvetica, sans-serif;
-
+  background-color: #fefcf6;
 }
 
 body {
-  font-size: 1.5rem;
-  width: 100%;
-  padding: 1.5rem;
-  margin-left: 0;
-  margin-right: 0;
-  line-height: 2.5rem;
-  color: #333;
+  max-width: 960px;
+  margin: auto;
+  font-size: 1.2rem;
+  line-height: 1.6;
 }
 
-/* text styles */
-
-h1 {
-  font-size: 3rem;
-}
-
-p {
-  margin: 1rem 0;
-}
-
-/* header and nav bar */
-
-header {
-  display: flex;
-  flex-direction: column;
-}
-
-header h1 {
-  display: none;
-}
-
-#header-link {
-  text-decoration: none;
-  color: #333;
-}
-
-#nav-bar {
-  display: flex;
-  flex-direction: row;
-  align-items: left;
-}
-
-.nav-link {
-  font-size: 2rem;
-  padding: 0 2rem 0 0;
-  color: #800000;
-  font-weight: bold;
-}
-
-/* main content */
-
-.container {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  width: 100%;
-}
-
-/* media queries */
-
-@media (min-width: 1020px) {
-  body {
-    font-size: 1.5rem;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  header {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  header h1 {
-    display: block;
-  }
-
-  #nav-bar{
-    align-items: center;
-  }
-
-  .nav-link {
-    font-size: 1.5rem;
-    padding: 0 1rem;
-  }
-
-  h1 {
-    font-size: 2rem;
-  }
+li {
+  line-height: 1.5;
 }
