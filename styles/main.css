@@ -9,6 +9,7 @@ html {
 
 body {
   max-width: 960px;
+  padding: 0.5rem;
   margin: auto;
   font-size: 1.2rem;
   line-height: 1.6;
